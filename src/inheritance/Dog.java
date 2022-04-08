@@ -13,12 +13,10 @@ public class Dog extends Animal{
         this.legs = legs;
     }
 
-    // Overriding
-    @Override
-    public void eat() {
+   public void eat() {
         super.eat();
         chew();
-    }
+   }
 
     public void chew() {
         System.out.println(super.getName() + " is eating");
